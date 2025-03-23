@@ -1,4 +1,3 @@
-
 * {
   color: var(--fontColor);
   font-family: helvetica;
@@ -23,8 +22,8 @@ li {
 }
 
 .light-theme {
-  --bg: var(--green);
-  --fontColoe: var(--black);
+  background-color: white;
+  color: black;
 }
 :root {
   --green: #00ff00;
@@ -32,8 +31,8 @@ li {
   --black: #000000;
 }
 .dark-theme {
-  --bg: var(--black);
-  --fontColor: valoe(--green);
+ background-color: black;
+ color: white;
 }
 
 h1 {
@@ -42,4 +41,18 @@ h1 {
 
 h4 {
   color: #00ff00;
+}
+.btn {
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: none;
+}
+.btn:focus {
+  outline-style: none;
 }
