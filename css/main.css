@@ -1,0 +1,45 @@
+
+* {
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+body {
+  background: var(--bg);
+}
+
+ul {
+  font-family: helvetica;
+}
+
+ul {
+  color: #00ff00;
+}
+
+li {
+  list-style: circle;
+}
+#list1 {
+  list-style: square;
+}
+
+.light-theme {
+  --bg: var(--green);
+  --fontColoe: var(--black);
+}
+:root {
+  --green: #00ff00;
+  --white: #ffffff;
+  --black: #000000;
+}
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: valoe(--green);
+}
+
+h1 {
+  color: #00ff00;
+}
+
+h4 {
+  color: #00ff00;
+}
